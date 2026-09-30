@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Plugin runtime trace (opt-in via config.trace)
+.dsh-preflight-trace.log
+.dsh-preflight-trace.on
+
+# Logs & OS noise
+*.log
+.DS_Store
+Thumbs.db
+
+# Test fallback output
+preflight-test-out.txt

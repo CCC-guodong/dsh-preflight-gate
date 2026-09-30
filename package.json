@@ -1,0 +1,49 @@
+{
+  "name": "dsh-preflight-gate",
+  "version": "1.3.1",
+  "description": "Preflight sandbox gate + one-shot batch approval for DSH (DeepSeek Harness): ask before executing, and approve a whole turn's out-of-workspace work with a single click.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test-preflight.mjs ./index.js && node test-batch.mjs ./index.js"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "cordis-plugin",
+    "plugin",
+    "sandbox",
+    "preflight",
+    "permission",
+    "approval",
+    "workspace-write",
+    "danger-full-access",
+    "windows"
+  ],
+  "license": "MIT",
+  "author": "chun07645-dev <296428684+chun07645-dev@users.noreply.github.com>",
+  "homepage": "https://github.com/chun07645-dev/dsh-preflight-gate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chun07645-dev/dsh-preflight-gate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chun07645-dev/dsh-preflight-gate/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
